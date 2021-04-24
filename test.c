@@ -8,9 +8,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <limits.h>
 
 int main(){
-    printf("00000\n");
-    printf(" ");
-    return 0;
+    printf("%d", (int)INT_MAX);
 }
